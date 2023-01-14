@@ -1,4 +1,7 @@
+name: github actions ci
+
 on:
+  push:
   workflow_dispatch:
 
 jobs:
