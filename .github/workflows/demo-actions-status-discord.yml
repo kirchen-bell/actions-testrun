@@ -31,6 +31,7 @@ jobs:
         with:
           webhook: ${{ secrets.DISCORD_WEBHOOK }}
           nodetail: true
+          color: 0xff96d5
           title: New version of `software` is ready!
           description: |
             Version `1.2.3-alpha`
