@@ -1,0 +1,10 @@
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: sarisia/actions-status-discord@v1.11.0-pre.0
+        with:
+          webhook: ${{ secrets.DISCORD_WEBHOOK }}
